@@ -40,7 +40,7 @@ public class Ejemplo6 {
                     System.out.printf("Estudiante entra a recuperación con un "
                             + "promedio: %.2f\n", promedio);
                 } else {
-                    if ((promedio < 3)) {
+                    if ((promedio < 3) && (promedio > 0)) {
                         System.out.printf("Estudiante reprobado con un "
                                 + "promedio: %.2f\n", promedio);
                     } else {
