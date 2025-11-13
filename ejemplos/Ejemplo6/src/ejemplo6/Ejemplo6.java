@@ -49,7 +49,8 @@ public class Ejemplo6 {
             totalDescuento = membresia - descuento;
 
             System.out.printf("Recibo\nNombre: %s\nApellido: %s\n"
-                    + "Usuario: %s\nEdad: %s\nParroquia: %s\nDescuento: %.2f\n"
+                    + "Usuario: %s\nEdad: %s\nParroquia: %s\nRecibe un descuento"
+                    + "de: %.2f\n"
                     + "Total a cancelar:%.2f\n", nombre, apellido,
             usuario, edad, parroquia, descuento, totalDescuento
           
