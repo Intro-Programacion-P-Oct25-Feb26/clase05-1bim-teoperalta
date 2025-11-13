@@ -26,7 +26,7 @@ public class Ejemplo6 {
         // < 3 Reprobado
         // cualquier otra nota sera fuera de rango
         // las notas no pueden pasar de 10
-        double promedio = 2;
+        double promedio = 10.1;
 
         if ((promedio >= 7.5) && (promedio <= 10)) {
             System.out.printf("Estudiante aprobado con un "
